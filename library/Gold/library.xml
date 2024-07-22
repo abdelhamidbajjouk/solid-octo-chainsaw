@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library name="Gold">
+    <prop-group name="default">
+        <prop name="gold tile">
+            <mesh file="tile_01.3ds">
+			<texture name="Nitro" diffuse-map="nitro.png"/>
+			<texture name="medkit" diffuse-map="medkit.png"/>
+			<texture name="doubledamage" diffuse-map="doubledamage.png"/>
+			<texture name="doublearmor" diffuse-map="doublearmor.png"/>
+                <texture name="Cristalls" diffuse-map="cris.png"/>
+				<texture name="gold" diffuse-map="gold.png"/>
+            </mesh>
+        </prop>
+    </prop-group>
+</library>

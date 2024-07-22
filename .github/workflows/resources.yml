@@ -1,0 +1,61 @@
+name: Build and Archive
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./go-tool
+    steps:
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.21
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install build dependencies
+        run: sudo apt-get update && sudo apt-get install -y openjdk-17-jre
+
+      - name: Build tool for tara
+        run: go build -o converter
+
+      - name: Change permissions
+        run: chmod +x converter
+      - name: Run converter
+        run: ./converter
+      - name: Workaround actions/upload-artifact#176
+        run: |
+          echo "artifacts_path=$(pwd)" >> $GITHUB_ENV && echo $(pwd)
+      # - name: Upload artifacts
+        # uses: actions/upload-artifact@v2
+        # with:
+        #   name: tara_files.tar
+        #   path: |
+        #     ${{ env.artifacts_path }}/*.tara
+      - name: echo  ${{ env.artifacts_path }}
+        run: echo  ${{ env.artifacts_path }}
+      - name: pwd
+        run: pwd
+      - name: ls -lha
+        run: ls -lha
+      - name: Create archive
+        run: tar -czvf archive.tar *.tara
+      - name: ls -lha
+        run: ls -lha
+      - name: Upload Files
+        id: upload
+        uses: Creepios/sftp-action@v1.0.3
+        with:
+          host: '${{ secrets.SFTP_HOST }}'
+          port: '${{ secrets.SFTP_PORT }}'
+          username: '${{ secrets.SFTP_USERNAME }}'
+          privateKey: '${{ secrets.SFTP_PRIVATE_KEY }}'
+          passphrase:  '${{secrets.SFTP_PASS_PHRASE}}'
+          localPath: '${{ env.artifacts_path }}/archive.tar'
+          remotePath: '/tmp/'

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library name="Outer Walls Legends">
+    <prop-group name="default">
+		<prop name="WTile">
+            <mesh file="tile_1.3ds">
+			    <texture name="WTile Big 1" diffuse-map="wtile_b.jpg"/>
+				<texture name="WTile Big 2" diffuse-map="wtile_b1.jpg"/>
+				<texture name="WTile Big 3" diffuse-map="wtile_b2.jpg"/>
+				<texture name="WTile Big 4" diffuse-map="wtile_b3.jpg"/>
+				<texture name="WTile Big 5" diffuse-map="wtile_b4.jpg"/>
+				<texture name="WTile Big 6" diffuse-map="wtile_b5.jpg"/>
+				<texture name="WTile Big 7" diffuse-map="wtile_b6.jpg"/>
+            </mesh>
+        </prop>
+		<prop name="YTile">
+            <mesh file="tile_1.3ds">
+			    <texture name="YTile Big 1" diffuse-map="ytile_b.jpg"/>
+				<texture name="YTile Big 2" diffuse-map="ytile_b1.jpg"/>
+				<texture name="YTile Big 3" diffuse-map="ytile_b2.jpg"/>
+				<texture name="YTile Big 4" diffuse-map="ytile_b3.jpg"/>
+				<texture name="YTile Big 5" diffuse-map="ytile_b4.jpg"/>
+				<texture name="YTile Big 6" diffuse-map="ytile_b5.jpg"/>
+				<texture name="YTile Big 7" diffuse-map="ytile_b6.jpg"/>
+            </mesh>
+        </prop>
+		<prop name="XTile">
+            <mesh file="tile_1.3ds">
+			    <texture name="XTile Big 1" diffuse-map="xtile_b.jpg"/>
+				<texture name="XTile Big 2" diffuse-map="xtile_b1.jpg"/>
+				<texture name="XTile Big 3" diffuse-map="xtile_b2.jpg"/>
+				<texture name="XTile Big 4" diffuse-map="xtile_b3.jpg"/>
+				<texture name="XTile Big 5" diffuse-map="xtile_b4.jpg"/>
+				<texture name="XTile Big 6" diffuse-map="xtile_b5.jpg"/>
+				<texture name="XTile Big 7" diffuse-map="xtile_b6.jpg"/>
+            </mesh>
+        </prop>
+		<prop name="ZTile">
+            <mesh file="tile_1.3ds">
+			    <texture name="ZTile Big 1" diffuse-map="ztile_b.jpg"/>
+				<texture name="ZTile Big 2" diffuse-map="ztile_b1.jpg"/>
+				<texture name="ZTile Big 3" diffuse-map="ztile_b2.jpg"/>
+				<texture name="ZTile Big 4" diffuse-map="ztile_b3.jpg"/>
+				<texture name="ZTile Big 5" diffuse-map="ztile_b4.jpg"/>
+				<texture name="ZTile Big 6" diffuse-map="ztile_b5.jpg"/>
+				<texture name="ZTile Big 7" diffuse-map="ztile_b6.jpg"/>
+				<texture name="ZTile Big 8" diffuse-map="ztile_b7.jpg"/>
+            </mesh>
+        </prop>
+		<prop name="UTile">
+            <mesh file="tile_1.3ds">
+			    <texture name="UTile Big 1" diffuse-map="utile_b.jpg"/>
+				<texture name="UTile Big 2" diffuse-map="utile_b1.jpg"/>
+				<texture name="UTile Big 3" diffuse-map="utile_b2.jpg"/>
+				<texture name="UTile Big 4" diffuse-map="utile_b3.jpg"/>
+				<texture name="UTile Big 5" diffuse-map="utile_b4.jpg"/>
+				<texture name="UTile Big 6" diffuse-map="utile_b5.jpg"/>
+				<texture name="UTile Big 7" diffuse-map="utile_b6.jpg"/>
+				<texture name="UTile Big 8" diffuse-map="utile_b7.jpg"/>
+				<texture name="UTile Big 9" diffuse-map="utile_b8.jpg"/>
+            </mesh>
+        </prop>
+        <prop name="Tile 2">
+            <mesh file="tile_2.3ds">
+                <texture name="debug" diffuse-map="debug.jpg"/>
+            </mesh>
+        </prop>
+		<prop name="End">
+            <mesh file="ow_2.3ds">
+                <texture name="End" diffuse-map="theend.jpg"/>
+            </mesh>
+        </prop>
+    </prop-group>
+</library>

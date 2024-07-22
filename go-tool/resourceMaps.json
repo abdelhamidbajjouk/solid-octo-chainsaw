@@ -1,0 +1,385 @@
+{
+    "id": "MAPS",
+    "items": [
+        {
+            "name": "map_2042",
+            "src": "maps/map_2042.xml"
+        },
+        {
+            "name": "map_abyss",
+            "src": "maps/map_abyss.xml"
+        },
+        {
+            "name": "map_alexandrovsk",
+            "src": "maps/map_alexandrovsk.xml"
+        },
+        {
+            "name": "map_arena",
+            "src": "maps/map_arena.xml"
+        },
+        {
+            "name": "map_atra",
+            "src": "maps/map_atra.xml"
+        },
+        {
+            "name": "map_barda",
+            "src": "maps/map_barda.xml"
+        },
+        {
+            "name": "map_berlin",
+            "src": "maps/map_berlin.xml"
+        },
+        {
+            "name": "map_bobruisk",
+            "src": "maps/map_bobruisk.xml"
+        },
+        {
+            "name": "map_boombox",
+            "src": "maps/map_boombox.xml"
+        },
+        {
+            "name": "map_brest",
+            "src": "maps/map_brest.xml"
+        },
+        {
+            "name": "map_bridge",
+            "src": "maps/map_bridge.xml"
+        },
+        {
+            "name": "map_bridges",
+            "src": "maps/map_bridges.xml"
+        },
+        {
+            "name": "map_camp",
+            "src": "maps/map_camp.xml"
+        },
+        {
+            "name": "map_canyon",
+            "src": "maps/map_canyon.xml"
+        },
+        {
+            "name": "map_chernobyl",
+            "src": "maps/map_chernobyl.xml"
+        },
+        {
+            "name": "map_combe",
+            "src": "maps/map_combe.xml"
+        },
+        {
+            "name": "map_courage",
+            "src": "maps/map_courage.xml"
+        },
+        {
+            "name": "map_crash",
+            "src": "maps/map_crash.xml"
+        },
+        {
+            "name": "map_cross",
+            "src": "maps/map_cross.xml"
+        },
+        {
+            "name": "map_deathtrack",
+            "src": "maps/map_deathtrack.xml"
+        },
+        {
+            "name": "map_deck9",
+            "src": "maps/map_deck9.xml"
+        },
+        {
+            "name": "map_desert",
+            "src": "maps/map_desert.xml"
+        },
+        {
+            "name": "map_dualiti",
+            "src": "maps/map_dualiti.xml"
+        },
+        {
+            "name": "map_duel",
+            "src": "maps/map_duel.xml"
+        },
+        {
+            "name": "map_dusseldorf",
+            "src": "maps/map_dusseldorf.xml"
+        },
+        {
+            "name": "map_edinburg",
+            "src": "maps/map_edinburg.xml"
+        },
+        {
+            "name": "map_edinburgh",
+            "src": "maps/map_edinburgh.xml"
+        },
+        {
+            "name": "map_esplanade",
+            "src": "maps/map_esplanade.xml"
+        },
+        {
+            "name": "map_factory",
+            "src": "maps/map_factory.xml"
+        },
+        {
+            "name": "map_farm",
+            "src": "maps/map_farm.xml"
+        },
+        {
+            "name": "map_forest",
+            "src": "maps/map_forest.xml"
+        },
+        {
+            "name": "map_fort_knox",
+            "src": "maps/map_fort_knox.xml"
+        },
+        {
+            "name": "map_foundry",
+            "src": "maps/map_foundry.xml"
+        },
+        {
+            "name": "map_future",
+            "src": "maps/map_future.xml"
+        },
+        {
+            "name": "map_gallery",
+            "src": "maps/map_gallery.xml"
+        },
+        {
+            "name": "map_garder",
+            "src": "maps/map_garder.xml"
+        },
+        {
+            "name": "map_gravity",
+            "src": "maps/map_gravity.xml"
+        },
+        {
+            "name": "map_gubakha",
+            "src": "maps/map_gubakha.xml"
+        },
+        {
+            "name": "map_hideout",
+            "src": "maps/map_hideout.xml"
+        },
+        {
+            "name": "map_highland",
+            "src": "maps/map_highland.xml"
+        },
+        {
+            "name": "map_highways",
+            "src": "maps/map_highways.xml"
+        },
+        {
+            "name": "map_hill",
+            "src": "maps/map_hill.xml"
+        },
+        {
+            "name": "map_industrial_zone",
+            "src": "maps/map_industrial_zone.xml"
+        },
+        {
+            "name": "map_iran",
+            "src": "maps/map_iran.xml"
+        },
+        {
+            "name": "map_island",
+            "src": "maps/map_island.xml"
+        },
+        {
+            "name": "map_kolhoz",
+            "src": "maps/map_kolhoz.xml"
+        },
+        {
+            "name": "map_kungur",
+            "src": "maps/map_kungur.xml"
+        },
+        {
+            "name": "map_labyrinth",
+            "src": "maps/map_labyrinth.xml"
+        },
+        {
+            "name": "map_legacy",
+            "src": "maps/map_legacy.xml"
+        },
+        {
+            "name": "map_lost_temple",
+            "src": "maps/map_lost_temple.xml"
+        },
+        {
+            "name": "map_madness",
+            "src": "maps/map_madness.xml"
+        },
+        {
+            "name": "map_madness_space",
+            "src": "maps/map_madness_space.xml"
+        },
+        {
+            "name": "map_magadan",
+            "src": "maps/map_magadan.xml"
+        },
+        {
+            "name": "map_magistral",
+            "src": "maps/map_magistral.xml"
+        },
+        {
+            "name": "map_massacre",
+            "src": "maps/map_massacre.xml"
+        },
+        {
+            "name": "map_molotov",
+            "src": "maps/map_molotov.xml"
+        },
+        {
+            "name": "map_monte_carlo",
+            "src": "maps/map_monte_carlo.xml"
+        },
+        {
+            "name": "map_noise",
+            "src": "maps/map_noise.xml"
+        },
+        {
+            "name": "map_novel",
+            "src": "maps/map_novel.xml"
+        },
+        {
+            "name": "map_opposition",
+            "src": "maps/map_opposition.xml"
+        },
+        {
+            "name": "map_osa",
+            "src": "maps/map_osa.xml"
+        },
+        {
+            "name": "map_parma",
+            "src": "maps/map_parma.xml"
+        },
+        {
+            "name": "map_pass",
+            "src": "maps/map_pass.xml"
+        },
+        {
+            "name": "map_pingpong",
+            "src": "maps/map_pingpong.xml"
+        },
+        {
+            "name": "map_platform",
+            "src": "maps/map_platform.xml"
+        },
+        {
+            "name": "map_polygon",
+            "src": "maps/map_polygon.xml"
+        },
+        {
+            "name": "map_red_alert",
+            "src": "maps/map_red_alert.xml"
+        },
+        {
+            "name": "map_rift",
+            "src": "maps/map_rift.xml"
+        },
+        {
+            "name": "map_rio",
+            "src": "maps/map_rio.xml"
+        },
+        {
+            "name": "map_rio_space",
+            "src": "maps/map_rio_space.xml"
+        },
+        {
+            "name": "map_riot",
+            "src": "maps/map_riot.xml"
+        },
+        {
+            "name": "map_sandal",
+            "src": "maps/map_sandal.xml"
+        },
+        {
+            "name": "map_sandbox",
+            "src": "maps/map_sandbox.xml"
+        },
+        {
+            "name": "map_scope",
+            "src": "maps/map_scope.xml"
+        },
+        {
+            "name": "map_serpuhov",
+            "src": "maps/map_serpuhov.xml"
+        },
+        {
+            "name": "map_short_bridge",
+            "src": "maps/map_short_bridge.xml"
+        },
+        {
+            "name": "map_siege",
+            "src": "maps/map_siege.xml"
+        },
+        {
+            "name": "map_silence",
+            "src": "maps/map_silence.xml"
+        },
+        {
+            "name": "map_silence_space",
+            "src": "maps/map_silence_space.xml"
+        },
+        {
+            "name": "map_skylark",
+            "src": "maps/map_skylark.xml"
+        },
+        {
+            "name": "map_skyscrapers",
+            "src": "maps/map_skyscrapers.xml"
+        },
+        {
+            "name": "map_skyscrapers_space",
+            "src": "maps/map_skyscrapers_space.xml"
+        },
+        {
+            "name": "map_solikamsk",
+            "src": "maps/map_solikamsk.xml"
+        },
+        {
+            "name": "map_stadium",
+            "src": "maps/map_stadium.xml"
+        },
+        {
+            "name": "map_station",
+            "src": "maps/map_station.xml"
+        },
+        {
+            "name": "map_stronghold",
+            "src": "maps/map_stronghold.xml"
+        },
+        {
+            "name": "map_subway",
+            "src": "maps/map_subway.xml"
+        },
+        {
+            "name": "map_technodrom",
+            "src": "maps/map_technodrom.xml"
+        },
+        {
+            "name": "map_trains",
+            "src": "maps/map_trains.xml"
+        },
+        {
+            "name": "map_tribute",
+            "src": "maps/map_tribute.xml"
+        },
+        {
+            "name": "map_unknown",
+            "src": "maps/map_unknown.xml"
+        },
+        {
+            "name": "map_valley",
+            "src": "maps/map_valley.xml"
+        },
+        {
+            "name": "map_wave",
+            "src": "maps/map_wave.xml"
+        },
+        {
+            "name": "map_wolfenstein",
+            "src": "maps/map_wolfenstein.xml"
+        },
+        {
+            "name": "map_zone",
+            "src": "maps/map_zone.xml"
+        }
+    ]
+}

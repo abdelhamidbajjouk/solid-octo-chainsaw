@@ -1,0 +1,16 @@
+<library name="dropzone">
+	<prop-group name="dropzone">
+		<prop name="Drop">
+			<mesh file="prop.3ds">
+					<texture name="Gold" diffuse-map="gold.png"/>
+					<texture name="Crystall" diffuse-map="cris.png"/>
+					<texture name="DoubleDamage" diffuse-map="doubledamage.png"/>
+					<texture name="DoubleArmor" diffuse-map="doublearmor.png"/>
+                                        <texture name="Nitro" diffuse-map="nitro.png"/>
+					<texture name="Medkit" diffuse-map="medkit.png"/>
+			</mesh>
+		</prop>
+	</prop-group>
+
+
+</library>
