@@ -46,6 +46,10 @@
             "src": "maps/map_bridge.xml"
         },
         {
+            "name": "map_fusion",
+            "src": "maps/map_fusion.xml"
+        },
+        {
             "name": "map_bridges",
             "src": "maps/map_bridges.xml"
         },

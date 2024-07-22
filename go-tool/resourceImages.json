@@ -46,6 +46,10 @@
 			"src": "maps/map_2042_preview.jpg"
 		},
 		{
+			"name": "map_fusion_preview",
+			"src": "maps/map_fusion_preview.jpg"
+		},
+		{
 			"name": "map_abyss_preview",
 			"src": "maps/map_abyss_preview.jpg"
 		},
