@@ -5584,6 +5584,94 @@
 		{
 			"name": "standard_m0_preview",
 			"src": "resistance/standard/m0/preview.png"
+		},
+		{
+			"name": "abstractmaze_m0",
+			"src": "colormaps/abstractmaze/image.jpg"
+		},
+		{
+			"name": "abstractmaze_m0_preview",
+			"src": "colormaps/abstractmaze/preview.png"
+		},
+		{
+			"name": "boom_m0",
+			"src": "colormaps/boom/image.jpg"
+		},
+		{
+			"name": "boom_m0_preview",
+			"src": "colormaps/boom/preview.png"
+		},
+		{
+			"name": "elitenick_m0",
+			"src": "colormaps/elitenick/image.jpg"
+		},
+		{
+			"name": "elitenick_m0_preview",
+			"src": "colormaps/elitenick/preview.png"
+		},
+		{
+			"name": "freenick_m0",
+			"src": "colormaps/freenick/image.jpg"
+		},
+		{
+			"name": "freenick_m0_preview",
+			"src": "colormaps/freenick/preview.png"
+		},
+		{
+			"name": "infinity_m0",
+			"src": "colormaps/infinity/image.jpg"
+		},
+		{
+			"name": "infinity_m0_preview",
+			"src": "colormaps/infinity/preview.png"
+		},
+		{
+			"name": "latex_m0",
+			"src": "colormaps/latex/image.jpg"
+		},
+		{
+			"name": "latex_m0_preview",
+			"src": "colormaps/latex/preview.png"
+		},
+		{
+			"name": "olivewidow_m0",
+			"src": "colormaps/olivewidow/image.jpg"
+		},
+		{
+			"name": "olivewidow_m0_preview",
+			"src": "colormaps/olivewidow/preview.png"
+		},
+		{
+			"name": "poisonousvine_m0",
+			"src": "colormaps/poisonousvine/image.jpg"
+		},
+		{
+			"name": "poisonousvine_m0_preview",
+			"src": "colormaps/poisonousvine/preview.png"
+		},
+		{
+			"name": "premnick_m0",
+			"src": "colormaps/premnick/image.jpg"
+		},
+		{
+			"name": "premnick_m0_preview",
+			"src": "colormaps/premnick/preview.png"
+		},
+		{
+			"name": "redstoker_m0",
+			"src": "colormaps/redstoker/image.jpg"
+		},
+		{
+			"name": "redstoker_m0_preview",
+			"src": "colormaps/redstoker/preview.png"
+		},
+		{
+			"name": "thugsigns_m0",
+			"src": "colormaps/thugsigns/image.jpg"
+		},
+		{
+			"name": "thugsigns_m0_preview",
+			"src": "colormaps/thugsigns/preview.png"
 		}
 	]
 }
