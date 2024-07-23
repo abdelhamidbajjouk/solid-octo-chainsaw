@@ -5498,6 +5498,18 @@
 			"src": "resistance/dolphin/m0/preview.png"
 		},
 		{
+			"name": "dolphin_m1_preview",
+			"src": "resistance/dolphin/m1/preview.png"
+		},
+		{
+			"name": "dolphin_m2_preview",
+			"src": "resistance/dolphin/m2/preview.png"
+		},
+		{
+			"name": "dolphin_m3_preview",
+			"src": "resistance/dolphin/m3/preview.png"
+		},
+		{
 			"name": "eagle_m0_preview",
 			"src": "resistance/eagle/m0/preview.png"
 		},
