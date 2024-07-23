@@ -5658,12 +5658,12 @@
 			"src": "colormaps/premnick/preview.png"
 		},
 		{
-			"name": "redstoker_m0",
-			"src": "colormaps/redstoker/image.jpg"
+			"name": "thugsigns_m0",
+			"src": "colormaps/thugsigns/image.jpg"
 		},
 		{
-			"name": "redstoker_m0_preview",
-			"src": "colormaps/redstoker/preview.png"
+			"name": "thugsigns_m0_preview",
+			"src": "colormaps/thugsigns/preview.png"
 		}
 	]
 }
