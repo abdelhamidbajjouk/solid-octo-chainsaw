@@ -5592,6 +5592,38 @@
 		{
 			"name": "abstractmaze_m0_preview",
 			"src": "colormaps/abstractmaze/preview.png"
+		},
+		{
+			"name": "boom_m0",
+			"src": "colormaps/boom/image.jpg"
+		},
+		{
+			"name": "boom_m0_preview",
+			"src": "colormaps/boom/preview.png"
+		},
+		{
+			"name": "elitenick_m0",
+			"src": "colormaps/elitenick/image.jpg"
+		},
+		{
+			"name": "elitenick_m0_preview",
+			"src": "colormaps/elitenick/preview.png"
+		},
+		{
+			"name": "freenick_m0",
+			"src": "colormaps/freenick/image.jpg"
+		},
+		{
+			"name": "freenick_m0_preview",
+			"src": "colormaps/freenick/preview.png"
+		},
+		{
+			"name": "infinity_m0",
+			"src": "colormaps/infinity/image.jpg"
+		},
+		{
+			"name": "infinity_m0_preview",
+			"src": "colormaps/infinity/preview.png"
 		}
 	]
 }
