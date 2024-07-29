@@ -2295,6 +2295,22 @@
 			"src": "colormaps/sapphire/preview.png"
 		},
 		{
+			"name": "phoenix_m0",
+			"src": "colormaps/phoenix/image.jpg"
+		},
+		{
+			"name": "phoenix_m0_preview",
+			"src": "colormaps/phoenix/preview.png"
+		},
+		{
+			"name": "aero_m0",
+			"src": "colormaps/aero/image.jpg"
+		},
+		{
+			"name": "aero_m0_preview",
+			"src": "colormaps/aero/preview.png"
+		},
+		{
 			"name": "spincolor_m0",
 			"src": "colormaps/spincolor/image.jpg"
 		},
@@ -5676,6 +5692,30 @@
 		{
 			"name": "thugsigns_m0_preview",
 			"src": "colormaps/thugsigns/preview.png"
+		},
+		{
+			"name": "microchip_m0",
+			"src": "colormaps/microchip/image.jpg"
+		},
+		{
+			"name": "microchip_m0_preview",
+			"src": "colormaps/microchip/preview.png"
+		},
+		{
+			"name": "dead_m0",
+			"src": "colormaps/dead/image.jpg"
+		},
+		{
+			"name": "dead_m0_preview",
+			"src": "colormaps/dead/preview.png"
+		},
+		{
+			"name": "bestplayer_m0",
+			"src": "colormaps/bestplayer/image.jpg"
+		},
+		{
+			"name": "bestplayer_m0_preview",
+			"src": "colormaps/bestplayer/preview.png"
 		}
 	]
 }
