@@ -52,9 +52,9 @@ jobs:
         id: upload
         uses: Creepios/sftp-action@v1.0.3
         with:
-          host: '185.249.198.242' #'${{ secrets.SFTP_HOST }}'
-          port: '22' #'${{ secrets.SFTP_PORT }}'
-          username: 'sftpusr1' #'${{ secrets.SFTP_USERNAME }}'
+          host: '185.249.198.242'
+          port: '22'
+          username: 'sftpusr1'
           # privateKey: '${{ secrets.SFTP_PRIVATE_KEY }}'
           # passphrase: '${{secrets.SFTP_PASS_PHRASE}}'
           password: CyberTankz114
