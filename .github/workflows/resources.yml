@@ -32,12 +32,6 @@ jobs:
       - name: Workaround actions/upload-artifact#176
         run: |
           echo "artifacts_path=$(pwd)" >> $GITHUB_ENV && echo $(pwd)
-      # - name: Upload artifacts
-      #   uses: actions/upload-artifact@v2
-      #   with:
-      #     name: tara_files.tar
-      #     path: |
-      #       ${{ env.artifacts_path }}/*.tara
       - name: echo  ${{ env.artifacts_path }}
         run: echo  ${{ env.artifacts_path }}
       - name: pwd
@@ -55,8 +49,6 @@ jobs:
           host: '185.249.198.242'
           port: '22'
           username: 'sftpusr1'
-          # privateKey: '${{ secrets.SFTP_PRIVATE_KEY }}'
-          # passphrase: '${{secrets.SFTP_PASS_PHRASE}}'
           password: CyberTankz114
           localPath: '${{ env.artifacts_path }}/archive.tar'
           remotePath: '/tmp/'
