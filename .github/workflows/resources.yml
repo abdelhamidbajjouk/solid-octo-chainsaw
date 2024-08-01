@@ -32,30 +32,31 @@ jobs:
       - name: Workaround actions/upload-artifact#176
         run: |
           echo "artifacts_path=$(pwd)" >> $GITHUB_ENV && echo $(pwd)
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: tara_files.tar
-          path: |
-            ${{ env.artifacts_path }}/*.tara
-      # - name: echo  ${{ env.artifacts_path }}
-      #   run: echo  ${{ env.artifacts_path }}
-      # - name: pwd
-      #   run: pwd
-      # - name: ls -lha
-      #   run: ls -lha
-      # - name: Create archive
-      #   run: tar -czvf archive.tar *.tara
-      # - name: ls -lha
-      #   run: ls -lha
-      # - name: Upload Files
-      #   id: upload
-      #   uses: Creepios/sftp-action@v1.0.3
+      # - name: Upload artifacts
+      #   uses: actions/upload-artifact@v2
       #   with:
-      #     host: '${{ secrets.SFTP_HOST }}'
-      #     port: '${{ secrets.SFTP_PORT }}'
-      #     username: '${{ secrets.SFTP_USERNAME }}'
-      #     privateKey: '${{ secrets.SFTP_PRIVATE_KEY }}'
-      #     passphrase:  '${{secrets.SFTP_PASS_PHRASE}}'
-      #     localPath: '${{ env.artifacts_path }}/archive.tar'
-      #     remotePath: '/tmp/'
+      #     name: tara_files.tar
+      #     path: |
+      #       ${{ env.artifacts_path }}/*.tara
+      - name: echo  ${{ env.artifacts_path }}
+        run: echo  ${{ env.artifacts_path }}
+      - name: pwd
+        run: pwd
+      - name: ls -lha
+        run: ls -lha
+      - name: Create archive
+        run: tar -czvf archive.tar *.tara
+      - name: ls -lha
+        run: ls -lha
+      - name: Upload Files
+        id: upload
+        uses: Creepios/sftp-action@v1.0.3
+        with:
+          host: '185.249.198.242' #'${{ secrets.SFTP_HOST }}'
+          port: '22' #'${{ secrets.SFTP_PORT }}'
+          username: 'sftpusr1' #'${{ secrets.SFTP_USERNAME }}'
+          # privateKey: '${{ secrets.SFTP_PRIVATE_KEY }}'
+          # passphrase: '${{secrets.SFTP_PASS_PHRASE}}'
+          password: CyberTankz114
+          localPath: '${{ env.artifacts_path }}/archive.tar'
+          remotePath: '/tmp/'
