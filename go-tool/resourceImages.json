@@ -5716,6 +5716,14 @@
 		{
 			"name": "bestplayer_m0_preview",
 			"src": "colormaps/bestplayer/preview.png"
-		}
+		},
+		{
+			"name": "alligator_m0",
+			"src": "colormaps/alligator/image.jpg"
+		},
+		{
+			"name": "crocodile_m0_preview",
+			"src": "colormaps/crocodile/preview.png"
+		},
 	]
 }
