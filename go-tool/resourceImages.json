@@ -5724,6 +5724,38 @@
 		{
 			"name": "crocodile_m0_preview",
 			"src": "colormaps/crocodile/preview.png"
+		},
+		{
+			"name": "aurora_m0",
+			"src": "colormaps/aurora/image.jpg"
+		},
+		{
+			"name": "aurora_m0_preview",
+			"src": "colormaps/aurora/preview.png"
+		},
+		{
+			"name": "catalyst_m0",
+			"src": "colormaps/catalyst/image.jpg"
+		},
+		{
+			"name": "catalyst_m0_preview",
+			"src": "colormaps/catalyst/preview.png"
+		},
+		{
+			"name": "synergy_m0",
+			"src": "colormaps/synergy/image.jpg"
+		},
+		{
+			"name": "synergy_m0_preview",
+			"src": "colormaps/synergy/preview.png"
+		},
+		{
+			"name": "orbit_m0",
+			"src": "colormaps/orbit/image.jpg"
+		},
+		{
+			"name": "orbit_m0_preview",
+			"src": "colormaps/orbit/preview.png"
 		}
 	]
 }
