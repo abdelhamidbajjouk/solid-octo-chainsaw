@@ -5724,14 +5724,6 @@
 		{
 			"name": "crocodile_m0_preview",
 			"src": "colormaps/crocodile/preview.png"
-		},
-		{
-			"name": "redstoker_m0",
-			"src": "colormaps/redstoker/image.jpg"
-		},
-		{
-			"name": "redstoker_m0_preview",
-			"src": "colormaps/redstoker/preview.png"
 		}
 	]
 }
