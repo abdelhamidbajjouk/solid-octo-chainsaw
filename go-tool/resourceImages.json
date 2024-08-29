@@ -5630,14 +5630,6 @@
 			"src": "colormaps/boom/preview.png"
 		},
 		{
-			"name": "redstoker_m0",
-			"src": "colormaps/redstoker/image.jpg"
-		},
-		{
-			"name": "redstoker_m0",
-			"src": "colormaps/redstoker/preview.png"
-		},
-		{
 			"name": "elitenick_m0",
 			"src": "colormaps/elitenick/image.jpg"
 		},
@@ -5732,6 +5724,14 @@
 		{
 			"name": "crocodile_m0_preview",
 			"src": "colormaps/crocodile/preview.png"
-		}
+		},
+		{
+			"name": "redstoker_m0",
+			"src": "colormaps/redstoker/image.jpg"
+		},
+		{
+			"name": "redstoker_m0",
+			"src": "colormaps/redstoker/preview.png"
+		},
 	]
 }
