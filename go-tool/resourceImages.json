@@ -5090,6 +5090,14 @@
 			"src": "effects/cont.png"
 		},
 		{
+			"name": "container_1",
+			"src": "effects/cont1.png"
+		},
+		{
+			"name": "container_1_preview",
+			"src": "effects/cont1.png"
+		},
+		{
 			"name": "pro_pass",
 			"src": "effects/pro.png"
 		},
