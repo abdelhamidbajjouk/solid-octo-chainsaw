@@ -39,7 +39,7 @@
         },
         {
             "name": "viking_tx",
-            "src": "hull/viking_tx/m0/hull.3ds"
+            "src": "hull/viking_tx/m0/object.3ds"
         },
         {
             "name": "hornet_tx",
