@@ -38,12 +38,20 @@
             "src": "hull/vikingxt/m0/hull.3ds?v1"
         },
         {
+            "name": "viking_tx",
+            "src": "hull/viking_tx/m0/hull.3ds"
+        },
+        {
             "name": "hornet_tx",
             "src": "hull/hornet_tx/m0/hull.3ds"
         },
         {
             "name": "railgun_tx",
             "src": "turret/railgun_tx/turret.3ds"
+        },
+        {
+            "name": "thunder_tx",
+            "src": "turret/thunder_tx/m0/turret.3ds"
         },
         {
             "name": "frezee_fr",
@@ -128,6 +136,10 @@
         {
             "name": "twins_xt",
             "src": "turret/twins_xt/m0/turret.3ds"
+        },
+        {
+            "name": "twins_lc",
+            "src": "turret/twins_lc/m0/turret.3ds"
         },
         {
             "name": "twins_m0",
@@ -408,6 +420,10 @@
         {
             "name": "mamont_xt",
             "src": "hull/mamontxt/m0/hull.3ds?v1"
+        },
+        {
+            "name": "mamont_lc",
+            "src": "hull/mamontlc/m0/hull.3ds?v1"
         },
         {
             "name": "bonus_box_gold",

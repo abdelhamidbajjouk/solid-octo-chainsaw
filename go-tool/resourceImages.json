@@ -18,6 +18,22 @@
 			"src": "hull/hornet_tx/m0/preview.png"
 		},
 		{
+			"name": "viking_tx_details",
+			"src": "hull/viking_tx/m0/details.png"
+		},
+		{
+			"name": "viking_tx_lightmap",
+			"src": "hull/viking_tx/m0/lightmap.jpg"
+		},
+		{
+			"name": "viking_tx_tracks",
+			"src": "hull/viking_tx/m0/tracks.jpg"
+		},
+		{
+			"name": "viking_tx_preview",
+			"src": "hull/viking_tx/m0/preview.png"
+		},
+		{
 			"name": "frezee_fr_details",
 			"src": "turret/frezee_fr/details.jpg"
 		},
@@ -40,6 +56,18 @@
 		{
 			"name": "railgun_tx_preview",
 			"src": "turret/railgun_tx/preview.png"
+		},
+		{
+			"name": "thunder_tx_details",
+			"src": "turret/thunder_tx/m0/details.png"
+		},
+		{
+			"name": "thunder_tx_lightmap",
+			"src": "turret/thunder_tx/m0/lightmap.jpg"
+		},
+		{
+			"name": "thunder_tx_preview",
+			"src": "turret/thunder_tx/m0/preview.png"
 		},
 		{
 			"name": "map_2042_preview",
@@ -1124,6 +1152,18 @@
 			"src": "turret/twins_xt/m0/lightmap.jpg?v1"
 		},
 		{
+			"name": "twins_lc_details",
+			"src": "turret/twins_lc/m0/details.png?v1"
+		},
+		{
+			"name": "twins_lc_preview",
+			"src": "turret/twins_lc/m0/preview.png?v1"
+		},
+		{
+			"name": "twins_lc_lightmap",
+			"src": "turret/twins_lc/m0/lightmap.jpg?v1"
+		},
+		{
 			"name": "twins_m0_details",
 			"src": "turret/twins/m0/details.png?v1"
 		},
@@ -1914,6 +1954,18 @@
 		{
 			"name": "mamont_xt_preview",
 			"src": "hull/mamontxt/m0/preview.png"
+		},
+		{
+			"name": "mamont_lc_lightmap",
+			"src": "hull/mamontlc/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "mamont_lc_details",
+			"src": "hull/mamontlc/m0/details.png?v1"
+		},
+		{
+			"name": "mamont_lc_preview",
+			"src": "hull/mamontlc/m0/preview.png"
 		},
 		{
 			"name": "mamont_m0_lightmap",
