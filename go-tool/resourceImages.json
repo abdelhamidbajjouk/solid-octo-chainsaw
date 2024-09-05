@@ -1744,6 +1744,18 @@
 			"src": "hull/vikingxt/m0/preview.png"
 		},
 		{
+			"name": "juggernaut_m0_details",
+			"src": "hull/juggernaut/m0/details.png?v1"
+		},
+		{
+			"name": "juggernaut_m0_lightmap",
+			"src": "hull/juggernaut/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "juggernaut_m0_preview",
+			"src": "hull/juggernaut/m0/preview.png"
+		},
+		{
 			"name": "wasp_xt_lightmap",
 			"src": "hull/waspxt/m0/lightmap.jpg?v1"
 		},

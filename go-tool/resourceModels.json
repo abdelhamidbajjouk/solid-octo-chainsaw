@@ -42,6 +42,10 @@
             "src": "hull/viking_tx/m0/object.3ds"
         },
         {
+            "name": "juggernaut_m0",
+            "src": "hull/juggernaut/m0/object.3ds"
+        },
+        {
             "name": "hornet_tx",
             "src": "hull/hornet_tx/m0/hull.3ds"
         },
