@@ -5836,6 +5836,186 @@
 		{
 			"name": "redstoker_m0_preview",
 			"src": "colormaps/redstoker/preview.png"
-		}
+		},
+		{
+            "name": "vulcan_m0_lightmap",
+            "src": "turret/vulcan/m0/lightmap.jpg"
+        },
+        {
+            "name": "vulcan_m0_details",
+            "src": "turret/vulcan/m0/details.png"
+        },
+        {
+            "name": "vulcan_m0_preview",
+            "src": "turret/vulcan/m0/preview.png"
+        },
+		{
+            "name": "vulcan_m1_lightmap",
+            "src": "turret/vulcan/m1/lightmap.jpg"
+        },
+        {
+            "name": "vulcan_m1_details",
+            "src": "turret/vulcan/m1/details.png"
+        },
+        {
+            "name": "vulcan_m1_preview",
+            "src": "turret/vulcan/m1/preview.png"
+        },
+		{
+            "name": "vulcan_m2_lightmap",
+            "src": "turret/vulcan/m2/lightmap.jpg"
+        },
+        {
+            "name": "vulcan_m2_details",
+            "src": "turret/vulcan/m2/details.png"
+        },
+        {
+            "name": "vulcan_m2_preview",
+            "src": "turret/vulcan/m2/preview.png"
+        },
+		{
+            "name": "vulcan_m3_lightmap",
+            "src": "turret/vulcan/m3/lightmap.jpg"
+        },
+        {
+            "name": "vulcan_m3_details",
+            "src": "turret/vulcan/m3/details.png"
+        },
+        {
+            "name": "vulcan_m3_preview",
+            "src": "turret/vulcan/m3/preview.png"
+        },
+		
+		{
+            "name": "vulcan_m0_crumbs",
+            "src": "turret/vulcan/crumbs.png"
+        },
+        {
+            "name": "vulcan_m0_dust",
+            "src": "turret/vulcan/dust.png"
+        },
+		{
+            "name": "vulcan_m0_fireAcross",
+            "src": "turret/vulcan/fire_across.png"
+        },
+		{
+            "name": "vulcan_m0_fireAlong",
+            "src": "turret/vulcan/fire_along.png"
+        },
+		{
+            "name": "vulcan_m0_smoke",
+            "src": "turret/vulcan/smoke.png"
+        },
+		{
+            "name": "vulcan_m0_sparkles",
+            "src": "turret/vulcan/sparkles.png"
+        },
+		{
+            "name": "vulcan_m0_sparkles_tank_hit",
+            "src": "turret/vulcan/sparkles_tank_hit.png"
+        },
+		{
+            "name": "vulcan_m0_tracer",
+            "src": "turret/vulcan/tracer.png"
+        },
+		
+		{
+            "name": "vulcan_m1_crumbs",
+            "src": "turret/vulcan/crumbs.png"
+        },
+        {
+            "name": "vulcan_m1_dust",
+            "src": "turret/vulcan/dust.png"
+        },
+		{
+            "name": "vulcan_m1_fireAcross",
+            "src": "turret/vulcan/fire_across.png"
+        },
+		{
+            "name": "vulcan_m1_fireAlong",
+            "src": "turret/vulcan/fire_along.png"
+        },
+		{
+            "name": "vulcan_m1_smoke",
+            "src": "turret/vulcan/smoke.png"
+        },
+		{
+            "name": "vulcan_m1_sparkles",
+            "src": "turret/vulcan/sparkles.png"
+        },
+		{
+            "name": "vulcan_m1_sparkles_tank_hit",
+            "src": "turret/vulcan/sparkles_tank_hit.png"
+        },
+		{
+            "name": "vulcan_m1_tracer",
+            "src": "turret/vulcan/tracer.png"
+        },
+		
+		{
+            "name": "vulcan_m2_crumbs",
+            "src": "turret/vulcan/crumbs.png"
+        },
+        {
+            "name": "vulcan_m2_dust",
+            "src": "turret/vulcan/dust.png"
+        },
+		{
+            "name": "vulcan_m2_fireAcross",
+            "src": "turret/vulcan/fire_across.png"
+        },
+		{
+            "name": "vulcan_m2_fireAlong",
+            "src": "turret/vulcan/fire_along.png"
+        },
+		{
+            "name": "vulcan_m2_smoke",
+            "src": "turret/vulcan/smoke.png"
+        },
+		{
+            "name": "vulcan_m2_sparkles",
+            "src": "turret/vulcan/sparkles.png"
+        },
+		{
+            "name": "vulcan_m2_sparkles_tank_hit",
+            "src": "turret/vulcan/sparkles_tank_hit.png"
+        },
+		{
+            "name": "vulcan_m2_tracer",
+            "src": "turret/vulcan/tracer.png"
+        },
+		
+		{
+            "name": "vulcan_m3_crumbs",
+            "src": "turret/vulcan/crumbs.png"
+        },
+        {
+            "name": "vulcan_m3_dust",
+            "src": "turret/vulcan/dust.png"
+        },
+		{
+            "name": "vulcan_m3_fireAcross",
+            "src": "turret/vulcan/fire_across.png"
+        },
+		{
+            "name": "vulcan_m3_fireAlong",
+            "src": "turret/vulcan/fire_along.png"
+        },
+		{
+            "name": "vulcan_m3_smoke",
+            "src": "turret/vulcan/smoke.png"
+        },
+		{
+            "name": "vulcan_m3_sparkles",
+            "src": "turret/vulcan/sparkles.png"
+        },
+		{
+            "name": "vulcan_m3_sparkles_tank_hit",
+            "src": "turret/vulcan/sparkles_tank_hit.png"
+        },
+		{
+            "name": "vulcan_m3_tracer",
+            "src": "turret/vulcan/tracer.png"
+        }
 	]
 }

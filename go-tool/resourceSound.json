@@ -216,6 +216,34 @@
 	  {
 		"name": "terminator_shot",
         "src": "turret/terminator/terminator.mp3"	
+	  },
+	  {
+		"name": "vulcan_end_1",
+        "src": "turret/vulcan/vulcan_end_1.mp3"	
+	  },
+	  {
+		"name": "vulcan_end_2",
+        "src": "turret/vulcan/vulcan_end_2.mp3"	
+	  },
+	  {
+		"name": "vulcan_fire_loop",
+        "src": "turret/vulcan/vulcan_fire_loop.mp3"	
+	  },
+	  {
+		"name": "vulcan_hit_loop",
+        "src": "turret/vulcan/vulcan_hit_loop.mp3"	
+	  },
+	  {
+		"name": "vulcan_hit_loop_2",
+        "src": "turret/vulcan/vulcan_hit_loop_2.mp3"	
+	  },
+	  {
+		"name": "vulcan_start_1",
+        "src": "turret/vulcan/vulcan_start_1.mp3"
+	  },
+	  {
+		"name": "vulcan_start_2",
+        "src": "turret/vulcan/vulcan_start_2.mp3"	
 	  }
 	  
 	]

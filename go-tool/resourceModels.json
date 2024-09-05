@@ -476,6 +476,50 @@
         {
             "name": "modelId_mine",
             "src": "mines/model/mine.3ds"
+        },
+        {
+          "name": "vulcan_m0",
+          "src": "turret/vulcan/m0/turret.3ds"
+        },
+        {
+          "name": "vulcan_m1",
+          "src": "turret/vulcan/m1/turret.3ds"
+        },
+        {
+          "name": "vulcan_m2",
+          "src": "turret/vulcan/m2/turret.3ds"
+        },
+        {
+          "name": "vulcan_m3",
+          "src": "turret/vulcan/m3/turret.3ds"
+        },
+        {
+            "name": "vulcan_end_1",
+            "src": "turret/vulcan/vulcan_end_1.mp3"	
+        },
+        {
+            "name": "vulcan_end_2",
+            "src": "turret/vulcan/vulcan_end_2.mp3"	
+        },
+        {
+            "name": "vulcan_fire_loop",
+            "src": "turret/vulcan/vulcan_fire_loop.mp3"	
+        },
+        {
+            "name": "vulcan_hit_loop",
+            "src": "turret/vulcan/vulcan_hit_loop.mp3"	
+        },
+        {
+            "name": "vulcan_hit_loop_2",
+            "src": "turret/vulcan/vulcan_hit_loop_2.mp3"	
+        },
+        {
+            "name": "vulcan_start_1",
+            "src": "turret/vulcan/vulcan_start_1.mp3"
+        },
+        {
+            "name": "vulcan_start_2",
+            "src": "turret/vulcan/vulcan_start_2.mp3"	
         }
     ]
 }
