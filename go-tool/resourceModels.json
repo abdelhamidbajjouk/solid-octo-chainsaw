@@ -43,7 +43,7 @@
         },
         {
             "name": "juggernaut_m0",
-            "src": "hull/juggernaut/m0/object.3ds"
+            "src": "hull/juggernaut/m0/model.3ds"
         },
         {
             "name": "hornet_tx",
