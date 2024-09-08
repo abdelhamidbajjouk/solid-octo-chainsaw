@@ -5538,6 +5538,14 @@
 			"src": "colormaps/gamer/preview.png"
 		},
 		{
+			"name": "azure_m0",
+			"src": "colormaps/azure/image.jpg"
+		},
+		{
+			"name": "azure_m0_preview",
+			"src": "colormaps/azure/preview.png"
+		},
+		{
 			"name": "recruit_m0",
 			"src": "colormaps/recruit/image.jpg"
 		},
