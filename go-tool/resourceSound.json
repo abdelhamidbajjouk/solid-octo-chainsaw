@@ -134,6 +134,14 @@
         "src": "turret/snowman/shot.mp3"
 	  },
 	  {
+		"name": "snowman_reload",
+        "src": "turret/snowman/reload.mp3"
+	  },
+	  {
+		"name": "snowman_full_reload",
+        "src": "turret/snowman/fullreload.mp3"
+	  },
+	  {
 		"name": "snowman_snow",
         "src": "turret/snowman/shot.mp3"
 	  },
