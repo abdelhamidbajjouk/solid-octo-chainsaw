@@ -5694,6 +5694,18 @@
 			"src": "resistance/standard/m0/preview.png"
 		},
 		{
+			"name": "lord_m0_preview",
+			"src": "resistance/demon/m0/preview.png"
+		},
+		{
+			"name": "demon_m0_preview",
+			"src": "resistance/demon/m0/preview.png"
+		},
+		{
+			"name": "spectrumb_m0_preview",
+			"src": "resistance/demon/m0/preview.png"
+		},
+		{
 			"name": "abstractmaze_m0",
 			"src": "colormaps/abstractmaze/image.jpg"
 		},
