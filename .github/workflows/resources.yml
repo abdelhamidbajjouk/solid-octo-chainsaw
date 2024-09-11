@@ -33,7 +33,7 @@ jobs:
         run: |
           echo "artifacts_path=$(pwd)" >> $GITHUB_ENV && echo $(pwd)
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: tara_files.tar
           path: |
