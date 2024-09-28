@@ -5714,6 +5714,30 @@
 			"src": "colormaps/abstractmaze/preview.png"
 		},
 		{
+			"name": "neonsurface_m0",
+			"src": "colormaps/neonsurface/image.jpg"
+		},
+		{
+			"name": "neonsurface_m0_preview",
+			"src": "colormaps/neonsurface/preview.png"
+		},
+		{
+			"name": "tesseractcamo_m0",
+			"src": "colormaps/tesseractcamo/image.jpg"
+		},
+		{
+			"name": "tesseractcamo_m0_preview",
+			"src": "colormaps/tesseractcamo/preview.png"
+		},
+		{
+			"name": "thepinkface_m0",
+			"src": "colormaps/thepinkface/image.jpg"
+		},
+		{
+			"name": "thepinkface_m0_preview",
+			"src": "colormaps/thepinkface/preview.png"
+		},
+		{
 			"name": "boom_m0",
 			"src": "colormaps/boom/image.jpg"
 		},
