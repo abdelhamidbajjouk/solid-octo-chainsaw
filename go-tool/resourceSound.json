@@ -252,6 +252,50 @@
 	  {
 		"name": "vulcan_start_2",
         "src": "turret/vulcan/vulcan_start_2.mp3"	
+	  },
+	  {
+		"name": "curshing",
+		"src": "jgr/crushing.mp3"
+	  },
+	  {
+		"name": "destroyedjuggernaut",
+		"src": "jgr/destroyedjuggernaut.mp3"
+	  },
+	  {
+		"name": "domination",
+		"src": "jgr/domination.mp3"
+	  },
+	  {
+		"name": "enraged",
+		"src": "jgr/enraged.mp3"
+	  },
+	  {
+		"name": "firstkill",
+		"src": "jgr/firstkill.mp3"
+	  },
+	  {
+		"name": "godlike",
+		"src": "jgr/godlike.mp3"
+	  },
+	  {
+		"name": "hunttime",
+		"src": "jgr/hunttime.mp3"
+	  },
+	  {
+		"name": "insane",
+		"src": "jgr/insane.mp3"
+	  },
+	  {
+		"name": "overdrive",
+		"src": "jgr/overdrive.mp3"
+	  },
+	  {
+		"name": "spawnjuggernaut",
+		"src": "jgr/spawnjuggernaut.mp3"
+	  },
+	  {
+		"name": "unstoppable",
+		"src": "jgr/unstoppable.mp3"
 	  }
 	  
 	]
