@@ -6060,6 +6060,190 @@
 		{
             "name": "vulcan_m3_tracer",
             "src": "turret/vulcan/tracer.png"
+        },
+		{
+			"name": "Berserk_m0_preview",
+            "src": "kits/m0/Berserk.png"
+        },
+        {
+			"name": "Brick_m0_preview",
+            "src": "kits/m0/Brick.png"
+        },
+        {
+			"name": "Cadet_m0_preview",
+            "src": "kits/m0/Cadet.png"
+        },
+        {
+			"name": "Commando_m0_preview",
+            "src": "kits/m0/Commando.png"
+        },
+        {
+			"name": "Military_doctor_m0_preview",
+            "src": "kits/m0/Military_doctor.png"
+        },
+        {
+			"name": "Saboteur_m0_preview",
+            "src": "kits/m0/Saboteur.png"
+        },
+        {
+			"name": "Varan_m0_preview",
+            "src": "kits/m0/Varan.png"
+        },
+        {
+			"name": "Blizzard_m0_preview",
+            "src": "kits/m1/Blizzard.png"
+        },
+        {
+			"name": "Brick_m0_preview",
+            "src": "kits/m0/Brick.png"
+        },
+        {
+			"name": "Buffalo_m0_preview",
+            "src": "kits/m1/Buffalo.png"
+        },
+        {
+			"name": "Cupid_m0_preview",
+            "src": "kits/m1/Cupid.png"
+        },
+        {
+			"name": "Firefly_m0_preview",
+            "src": "kits/m1/Firefly.png"
+        },
+        {
+			"name": "Gunslinger_m0_preview",
+            "src": "kits/m1/Gunslinger.png"
+        },
+        {
+			"name": "Keeper_m0_preview",
+            "src": "kits/m1/Keeper.png"
+        },
+        {
+			"name": "Knight_m0_preview",
+            "src": "kits/m1/Knight.png"
+        },
+        {
+			"name": "Lizard_m0_preview",
+            "src": "kits/m1/Lizard.png"
+        },
+        {
+			"name": "Pirate_m0_preview",
+            "src": "kits/m1/Pirate.png"
+        },
+        {
+			"name": "Savage_m0_preview",
+            "src": "kits/m1/Savage.png"
+        },
+        {
+			"name": "Vampire_m0_preview",
+            "src": "kits/m1/Vampire.png"
+        },
+        {
+			"name": "Piranha_m0_preview",
+            "src": "kits/m1/Piranha.png"
+        },
+        {
+			"name": "Atlas_m0_preview",
+            "src": "kits/m2/Atlas.png"
+        },
+        {
+			"name": "Avalanche_m0_preview",
+            "src": "kits/m2/Avalanche.png"
+        },
+        {
+			"name": "Boar_m0_preview",
+            "src": "kits/m2/Boar.png"
+        },
+        {
+			"name": "Dj_m0_preview",
+            "src": "kits/m2/Dj.png"
+        },
+        {
+			"name": "Fortress_m0_preview",
+            "src": "kits/m2/Fortress.png"
+        },
+        {
+			"name": "Mosquito_m0_preview",
+            "src": "kits/m2/Mosquito.png"
+        },
+        {
+			"name": "Osaka_m0_preview",
+            "src": "kits/m2/Osaka.png"
+        },
+        {
+			"name": "Ram_m0_preview",
+            "src": "kits/m2/Ram.png"
+        },
+        {
+			"name": "Simoom_m0_preview",
+            "src": "kits/m2/Simoom.png"
+        },
+        {
+			"name": "Stinger_m0_preview",
+            "src": "kits/m2/Stinger.png"
+        },
+        {
+			"name": "Voltage_m0_preview",
+            "src": "kits/m2/Voltage.png"
+        },
+        {
+			"name": "Firewall_m0_preview",
+            "src": "kits/m2/Firewall.png"
+        },
+        {
+			"name": "Boreas_m0_preview",
+            "src": "kits/m3/Boreas.png"
+        },
+        {
+			"name": "Bulldozer_m0_preview",
+            "src": "kits/m3/Bulldozer.png"
+        },
+        {
+			"name": "Cardinal_m0_preview",
+            "src": "kits/m3/Cardinal.png"
+        },
+        {
+			"name": "Healer_m0_preview",
+            "src": "kits/m3/Healer.png"
+        },
+        {
+			"name": "Legend_m0_preview",
+            "src": "kits/m3/Legend.png"
+        },
+        {
+			"name": "Maestro_m0_preview",
+            "src": "kits/m3/Maestro.png"
+        },
+        {
+			"name": "Medic_m0_preview",
+            "src": "kits/m3/Medic.png"
+        },
+        {
+			"name": "Paladin_m0_preview",
+            "src": "kits/m3/Paladin.png"
+        },
+        {
+			"name": "Prometheus_m0_preview",
+            "src": "kits/m3/Prometheus.png"
+        },
+        {
+			"name": "Pyromancer_m0_preview",
+            "src": "kits/m3/Pyromancer.png"
+        },
+        {
+			"name": "Raiden_m0_preview",
+            "src": "kits/m3/Raiden.png"
+        },
+        {
+			"name": "Rock_climber_m0_preview",
+            "src": "kits/m3/Rock_climber.png"
+        },
+        {
+			"name": "Sniper_m0_preview",
+            "src": "kits/m3/Sniper.png"
+        },
+        {
+			"name": "Turtle_m0_preview",
+            "src": "kits/m3/Turtle.png"
         }
 	]
 }
