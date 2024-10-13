@@ -5610,6 +5610,18 @@
 			"src": "resistance/eagle/m0/preview.png"
 		},
 		{
+			"name": "eagle_m1_preview",
+			"src": "resistance/eagle/m1/preview.png"
+		},
+		{
+			"name": "eagle_m2_preview",
+			"src": "resistance/eagle/m2/preview.png"
+		},
+		{
+			"name": "eagle_m3_preview",
+			"src": "resistance/eagle/m3/preview.png"
+		},
+		{
 			"name": "fox_m0_preview",
 			"src": "resistance/fox/m0/preview.png"
 		},
@@ -5646,6 +5658,18 @@
 			"src": "resistance/lion/m0/preview.png"
 		},
 		{
+			"name": "lion_m1_preview",
+			"src": "resistance/lion/m1/preview.png"
+		},
+		{
+			"name": "lion_m2_preview",
+			"src": "resistance/lion/m2/preview.png"
+		},
+		{
+			"name": "lion_m3_preview",
+			"src": "resistance/lion/m3/preview.png"
+		},
+		{
 			"name": "panther_m0_preview",
 			"src": "resistance/panther/m0/preview.png"
 		},
@@ -5656,6 +5680,18 @@
 		{
 			"name": "shark_m0_preview",
 			"src": "resistance/shark/m0/preview.png"
+		},
+		{
+			"name": "shark_m1_preview",
+			"src": "resistance/shark/m1/preview.png"
+		},
+		{
+			"name": "shark_m2_preview",
+			"src": "resistance/shark/m2/preview.png"
+		},
+		{
+			"name": "shark_m3_preview",
+			"src": "resistance/shark/m3/preview.png"
 		},
 		{
 			"name": "spider_m0_preview",
@@ -5678,12 +5714,48 @@
 			"src": "resistance/wolf/m0/preview.png"
 		},
 		{
+			"name": "wolf_m1_preview",
+			"src": "resistance/wolf/m1/preview.png"
+		},
+		{
+			"name": "wolf_m2_preview",
+			"src": "resistance/wolf/m2/preview.png"
+		},
+		{
+			"name": "wolf_m3_preview",
+			"src": "resistance/wolf/m3/preview.png"
+		},
+		{
 			"name": "falcon_m0_preview",
 			"src": "resistance/falcon/m0/preview.png"
 		},
 		{
+			"name": "falcon_m1_preview",
+			"src": "resistance/falcon/m1/preview.png"
+		},
+		{
+			"name": "falcon_m2_preview",
+			"src": "resistance/falcon/m2/preview.png"
+		},
+		{
+			"name": "falcon_m3_preview",
+			"src": "resistance/falcon/m3/preview.png"
+		},
+		{
 			"name": "ocelot_m0_preview",
 			"src": "resistance/ocelot/m0/preview.png"
+		},
+		{
+			"name": "ocelot_m1_preview",
+			"src": "resistance/ocelot/m1/preview.png"
+		},
+		{
+			"name": "ocelot_m2_preview",
+			"src": "resistance/ocelot/m2/preview.png"
+		},
+		{
+			"name": "ocelot_m3_preview",
+			"src": "resistance/ocelot/m3/preview.png"
 		},
 		{
 			"name": "zero_m0_preview",
