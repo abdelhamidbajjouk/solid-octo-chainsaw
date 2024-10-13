@@ -5678,6 +5678,14 @@
 			"src": "resistance/panther/m1/preview.png"
 		},
 		{
+			"name": "panther_m2_preview",
+			"src": "resistance/panther/m2/preview.png"
+		},
+		{
+			"name": "panther_m3_preview",
+			"src": "resistance/panther/m3/preview.png"
+		},
+		{
 			"name": "shark_m0_preview",
 			"src": "resistance/shark/m0/preview.png"
 		},
