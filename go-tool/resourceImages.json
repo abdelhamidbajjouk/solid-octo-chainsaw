@@ -5718,22 +5718,6 @@
 			"src": "resistance/spider/m3/preview.png"
 		},
 		{
-			"name": "wolf_m0_preview",
-			"src": "resistance/wolf/m0/preview.png"
-		},
-		{
-			"name": "wolf_m1_preview",
-			"src": "resistance/wolf/m1/preview.png"
-		},
-		{
-			"name": "wolf_m2_preview",
-			"src": "resistance/wolf/m2/preview.png"
-		},
-		{
-			"name": "wolf_m3_preview",
-			"src": "resistance/wolf/m3/preview.png"
-		},
-		{
 			"name": "falcon_m0_preview",
 			"src": "resistance/falcon/m0/preview.png"
 		},
