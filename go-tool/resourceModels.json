@@ -230,6 +230,10 @@
             "src": "turret/railgunxt/m0/turret.3ds"
         },
         {
+            "name": "railgun_lc",
+            "src": "turret/railgun_lc/m0/turret.3ds"
+        },
+        {
             "name": "railgun_m0",
             "src": "turret/railgun/m0/turret.3ds"
         },
