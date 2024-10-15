@@ -2251,6 +2251,22 @@
 			"src": "colormaps/fallleaves/preview.png"
 		},
 		{
+			"name": "squidfingers_m0",
+			"src": "colormaps/squidfingers/image.jpg"
+		},
+		{
+			"name": "squidfingers_m0_preview",
+			"src": "colormaps/squidfingers/preview.png"
+		},
+		{
+			"name": "firedragon_m0",
+			"src": "colormaps/firedragon/image.jpg"
+		},
+		{
+			"name": "firedragon_m0_preview",
+			"src": "colormaps/firedragon/preview.png"
+		},
+		{
 			"name": "turbo_m0",
 			"src": "colormaps/turbo/image.jpg"
 		},
