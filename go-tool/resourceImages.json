@@ -1272,6 +1272,18 @@
 			"src": "turret/railgunxt/m0/preview.png?v1"
 		},
 		{
+			"name": "railgun_lc_lightmap",
+			"src": "turret/railgun_lc/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "railgun_lc_details",
+			"src": "turret/railgun_lc/m0/details.png?v1"
+		},
+		{
+			"name": "railgun_lc_preview",
+			"src": "turret/railgun_lc/m0/preview.png?v1"
+		},
+		{
 			"name": "terminator_m0_details",
 			"src": "turret/terminator/m0/details.png?v1"
 		},
@@ -2223,6 +2235,22 @@
 			"src": "colormaps/fools/preview.png"
 		},
 		{
+			"name": "scarierthings_m0",
+			"src": "colormaps/scarierthings/image.jpg"
+		},
+		{
+			"name": "scarierthings_m0_preview",
+			"src": "colormaps/scarierthings/preview.png"
+		},
+		{
+			"name": "fallleaves_m0",
+			"src": "colormaps/fallleaves/image.jpg"
+		},
+		{
+			"name": "fallleaves_m0_preview",
+			"src": "colormaps/fallleaves/preview.png"
+		},
+		{
 			"name": "turbo_m0",
 			"src": "colormaps/turbo/image.jpg"
 		},
@@ -2509,6 +2537,30 @@
 		{
 			"name": "foreign_m0_preview",
 			"src": "colormaps/foreign/preview.png"
+		},
+		{
+			"name": "rhino_m0",
+			"src": "colormaps/rhino/image.jpg"
+		},
+		{
+			"name": "rhino_m0_preview",
+			"src": "colormaps/rhino/preview.png"
+		},
+		{
+			"name": "sakura_m0",
+			"src": "colormaps/sakura/image.jpg"
+		},
+		{
+			"name": "sakura_m0_preview",
+			"src": "colormaps/sakura/preview.png"
+		},
+		{
+			"name": "guerilla_m0",
+			"src": "colormaps/guerilla/image.jpg"
+		},
+		{
+			"name": "guerilla_m0_preview",
+			"src": "colormaps/guerilla/preview.png"
 		},
 		{
 			"name": "safari_m0",
@@ -2954,6 +3006,78 @@
 		{
 			"name": "flame_m0_preview",
 			"src": "colormaps/flame/preview.png"
+		},
+		{
+			"name": "amber_m0",
+			"src": "colormaps/amber/image.jpg"
+		},
+		{
+			"name": "amber_m0_preview",
+			"src": "colormaps/amber/preview.png"
+		},
+		{
+			"name": "arachnid_m0",
+			"src": "colormaps/arachnid/image.jpg"
+		},
+		{
+			"name": "arachnid_m0_preview",
+			"src": "colormaps/arachnid/preview.png"
+		},
+		{
+			"name": "domino_m0",
+			"src": "colormaps/domino/image.jpg"
+		},
+		{
+			"name": "domino_m0_preview",
+			"src": "colormaps/domino/preview.png"
+		},
+		{
+			"name": "drought_m0",
+			"src": "colormaps/drought/image.jpg"
+		},
+		{
+			"name": "drought_m0_preview",
+			"src": "colormaps/drought/preview.png"
+		},
+		{
+			"name": "lime_m0",
+			"src": "colormaps/lime/image.jpg"
+		},
+		{
+			"name": "lime_m0_preview",
+			"src": "colormaps/lime/preview.png"
+		},
+		{
+			"name": "liquidmetal_m0",
+			"src": "colormaps/liquidmetal/image.jpg"
+		},
+		{
+			"name": "liquidmetal_m0_preview",
+			"src": "colormaps/liquidmetal/preview.png"
+		},
+		{
+			"name": "mint_m0",
+			"src": "colormaps/mint/image.jpg"
+		},
+		{
+			"name": "mint_m0_preview",
+			"src": "colormaps/mint/preview.png"
+		},
+		{
+			"name": "neuron_m0",
+			"src": "colormaps/neuron/image.jpg"
+		},
+		{
+			"name": "neuron_m0_preview",
+			"src": "colormaps/neuron/preview.png"
+		},
+		{
+			"name": "watercolor_m0",
+			"src": "colormaps/watercolor/image.jpg"
+		},
+		{
+			"name": "watercolor_m0_preview",
+			"src": "colormaps/watercolor/preview.png"
 		},
 		{
 			"name": "flame2_m0",
@@ -3483,6 +3607,14 @@
 			"src": "colormaps/kolichuga/preview.png"
 		},
 		{
+			"name": "vortex_m0",
+			"src": "colormaps/vortex/image.jpg"
+		},
+		{
+			"name": "vortex_m0_preview",
+			"src": "colormaps/vortex/preview.png"
+		},
+		{
 			"name": "magma_m0",
 			"src": "colormaps/magma/image.jpg"
 		},
@@ -3505,6 +3637,14 @@
 		{
 			"name": "mars_m0_preview",
 			"src": "colormaps/mars/preview.png"
+		},
+		{
+			"name": "invader_m0",
+			"src": "colormaps/invader/image.jpg"
+		},
+		{
+			"name": "invader_m0_preview",
+			"src": "colormaps/invader/preview.png"
 		},
 		{
 			"name": "tiger_m0",
@@ -3990,6 +4130,10 @@
 			"src": "turret/railgun/shoteffects/green/railgun.png?v1"
 		},
 		{
+			"name": "railgun_gold_shot",
+			"src": "turret/railgun/shoteffects/gold/railgun.png?v1"
+		},
+		{
 			"name": "railgun_matrix_shot",
 			"src": "turret/railgun/shoteffects/matrix/railgun.png?v1"
 		},
@@ -4028,6 +4172,10 @@
 		{
 			"name": "railgun_green_ashot",
 			"src": "turret/railgun/shoteffects/green/sh.png?v1"
+		},
+		{
+			"name": "railgun_gold_ashot",
+			"src": "turret/railgun/shoteffects/gold/sh.png?v1"
 		},
 		{
 			"name": "railgun_matrix_ashot",
@@ -4106,6 +4254,10 @@
 			"src": "turret/railgun/shoteffects/green/charge_part1.png"
 		},
 		{
+			"name": "railgun_gold_chargingPart1",
+			"src": "turret/railgun/shoteffects/gold/charge_part1.png"
+		},
+		{
 			"name": "railgun_matrix_chargingPart2",
 			"src": "turret/railgun/shoteffects/matrix/charge_part2.png"
 		},
@@ -4126,12 +4278,20 @@
 			"src": "turret/railgun/shoteffects/green/charge_part2.png"
 		},
 		{
+			"name": "railgun_gold_chargingPart2",
+			"src": "turret/railgun/shoteffects/gold/charge_part2.png"
+		},
+		{
 			"name": "railgun_matrix_chargingPart3",
 			"src": "turret/railgun/shoteffects/matrix/charge_part3.png"
 		},
 		{
 			"name": "railgun_green_chargingPart3",
 			"src": "turret/railgun/shoteffects/green/charge_part3.png"
+		},
+		{
+			"name": "railgun_gold_chargingPart3",
+			"src": "turret/railgun/shoteffects/gold/charge_part3.png"
 		},
 		{
 			"name": "railgun_blood_chargingPart3",
@@ -5800,6 +5960,30 @@
 		{
 			"name": "thepinkface_m0_preview",
 			"src": "colormaps/thepinkface/preview.png"
+		},
+		{
+			"name": "midnight_m0",
+			"src": "colormaps/midnight/image.jpg"
+		},
+		{
+			"name": "midnight_m0_preview",
+			"src": "colormaps/midnight/preview.png"
+		},
+		{
+			"name": "icebreaker_m0",
+			"src": "colormaps/icebreaker/image.jpg"
+		},
+		{
+			"name": "icebreaker_m0_preview",
+			"src": "colormaps/icebreaker/preview.png"
+		},
+		{
+			"name": "flowering_m0",
+			"src": "colormaps/flowering/image.jpg"
+		},
+		{
+			"name": "flowering_m0_preview",
+			"src": "colormaps/flowering/preview.png"
 		},
 		{
 			"name": "boom_m0",
