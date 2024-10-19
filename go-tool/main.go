@@ -15,14 +15,6 @@ import (
     "github.com/bitforge-srl/ptResource/go-tool/types"
 )
 
-type ResourceType string
-
-const (
-    ResourceTypeImage ResourceType = "image"
-    ResourceTypeSound ResourceType = "sound"
-    ResourceTypeModel ResourceType = "model"
-)
-
 var basePath string
 
 func main() {
