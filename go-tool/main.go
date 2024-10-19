@@ -9,6 +9,8 @@ import (
     "path/filepath"
     "strings"
 
+    "crypto/md5" // Import for MD5 hashing
+
     "github.com/bitforge-srl/ptResource/go-tool/runtimedeps"
     "github.com/bitforge-srl/ptResource/go-tool/types"
 )
