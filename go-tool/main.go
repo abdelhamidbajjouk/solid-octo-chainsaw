@@ -55,58 +55,111 @@ func fileNameWithoutExtSliceNotation(fileName string) string {
 	return fileName[:len(fileName)-len(filepath.Ext(fileName))]
 }
 
+// func makeTara(filename string) error {
+// 	resourcesFolder := filepath.Dir(basePath)
+// 	filenameFullPath := filepath.Join(basePath, filename)
+// 	outResourceFolderFullPath := fileNameWithoutExtSliceNotation(filenameFullPath)
+// 	if err := os.Mkdir(outResourceFolderFullPath, 0777); err != nil {
+// 		//return err
+// 	}
+
+// 	jsonStruct := &types.JSON{}
+
+// 	jsonFile, err := os.ReadFile(filenameFullPath)
+// 	if err != nil {
+// 		return err
+// 	}
+
+// 	if err := json.Unmarshal(jsonFile, jsonStruct); err != nil {
+// 		return err
+// 	}
+
+// 	for _, resource := range jsonStruct.Items {
+// 		if jsonStruct.ID == "PROPS" {
+// 			propsSrcFolder := filepath.Join(resourcesFolder, resource.Src)
+// 			entries, err := os.ReadDir(propsSrcFolder)
+// 			if err != nil {
+// 				log.Fatal(err)
+// 			}
+// 			for _, entry := range entries {
+// 				if entry.IsDir() {
+// 					runtimedeps.PackTaraExternal(filepath.Join(propsSrcFolder, entry.Name()), filepath.Join(outResourceFolderFullPath, entry.Name()))
+// 				}
+// 			}
+
+// 			break
+// 		}
+// 		filenameSpl := strings.Split(resource.Src, "?")
+
+// 		resFile, err := os.ReadFile(filepath.Join(resourcesFolder, filenameSpl[0]))
+// 		if err != nil {
+// 			log.Printf("Skipping file due to error: %s", err.Error())
+// 			continue
+// 		}
+
+// 		outFile, err := os.Create(filepath.Join(outResourceFolderFullPath, resource.Name+filepath.Ext(filenameSpl[0])))
+// 		if err != nil {
+// 			panic(err)
+// 		}
+// 		outFile.Write(resFile)
+// 		defer outFile.Close()
+// 	}
+
+// 	return runtimedeps.PackTaraExternal(outResourceFolderFullPath, filepath.Join(basePath, strings.ToLower(jsonStruct.ID)))
+
+// }
 func makeTara(filename string) error {
-	resourcesFolder := filepath.Dir(basePath)
-	filenameFullPath := filepath.Join(basePath, filename)
-	outResourceFolderFullPath := fileNameWithoutExtSliceNotation(filenameFullPath)
-	if err := os.Mkdir(outResourceFolderFullPath, 0777); err != nil {
-		//return err
-	}
+    resourcesFolder := filepath.Dir(basePath)
+    filenameFullPath := filepath.Join(basePath, filename)
+    outResourceFolderFullPath := fileNameWithoutExtSliceNotation(filenameFullPath)
+    
+    if err := os.Mkdir(outResourceFolderFullPath, 0777); err != nil {
+        return err
+    }
 
-	jsonStruct := &types.JSON{}
+    jsonStruct := &types.JSON{}
+    jsonFile, err := os.ReadFile(filenameFullPath)
+    if err != nil {
+        return err
+    }
+    
+    if err := json.Unmarshal(jsonFile, jsonStruct); err != nil {
+        return err
+    }
+    
+    for _, resource := range jsonStruct.Items {
+        switch jsonStruct.ID {
+        case "PROPS", "MAPS":
+            // Pack props/maps into TARA
+            propsSrcFolder := filepath.Join(resourcesFolder, resource.Src)
+            runtimedeps.PackTaraExternal(propsSrcFolder, outResourceFolderFullPath)
 
-	jsonFile, err := os.ReadFile(filenameFullPath)
-	if err != nil {
-		return err
-	}
+        case "IMAGES", "SOUNDS", "MODELS":
+            // Store raw files in separate folders (no TARA)
+            rawFolder := filepath.Join(resourcesFolder, jsonStruct.ID)
+            if _, err := os.Stat(rawFolder); os.IsNotExist(err) {
+                os.Mkdir(rawFolder, 0777)
+            }
+            filenameSpl := strings.Split(resource.Src, "?")
+            resFile, err := os.ReadFile(filepath.Join(resourcesFolder, filenameSpl[0]))
+            if err != nil {
+                log.Printf("Skipping file due to error: %s", err.Error())
+                continue
+            }
+            outFile, err := os.Create(filepath.Join(rawFolder, resource.Name+filepath.Ext(filenameSpl[0])))
+            if err != nil {
+                return err
+            }
+            outFile.Write(resFile)
+            outFile.Close()
+        }
+    }
 
-	if err := json.Unmarshal(jsonFile, jsonStruct); err != nil {
-		return err
-	}
+    if jsonStruct.ID == "PROPS" || jsonStruct.ID == "MAPS" {
+        return runtimedeps.PackTaraExternal(outResourceFolderFullPath, filepath.Join(basePath, strings.ToLower(jsonStruct.ID)))
+    }
 
-	for _, resource := range jsonStruct.Items {
-		if jsonStruct.ID == "PROPS" {
-			propsSrcFolder := filepath.Join(resourcesFolder, resource.Src)
-			entries, err := os.ReadDir(propsSrcFolder)
-			if err != nil {
-				log.Fatal(err)
-			}
-			for _, entry := range entries {
-				if entry.IsDir() {
-					runtimedeps.PackTaraExternal(filepath.Join(propsSrcFolder, entry.Name()), filepath.Join(outResourceFolderFullPath, entry.Name()))
-				}
-			}
-
-			break
-		}
-		filenameSpl := strings.Split(resource.Src, "?")
-
-		resFile, err := os.ReadFile(filepath.Join(resourcesFolder, filenameSpl[0]))
-		if err != nil {
-			log.Printf("Skipping file due to error: %s", err.Error())
-			continue
-		}
-
-		outFile, err := os.Create(filepath.Join(outResourceFolderFullPath, resource.Name+filepath.Ext(filenameSpl[0])))
-		if err != nil {
-			panic(err)
-		}
-		outFile.Write(resFile)
-		defer outFile.Close()
-	}
-
-	return runtimedeps.PackTaraExternal(outResourceFolderFullPath, filepath.Join(basePath, strings.ToLower(jsonStruct.ID)))
-
+    return nil
 }
 
 func makeTaraWorker(id int, jobs <-chan string, results chan<- bool) {
