@@ -80,15 +80,15 @@ func makeTara(filename string) error {
     for _, resource := range jsonStruct.Items {
         resourcePath := filepath.Join(resourcesFolder, resource.Src)
 
-        switch resource["type"] {
-        case "image":
+        switch resource.Type {
+        case ResourceTypeImage:
             // Generate hash for image
             hash, err := generateHash(resourcePath)
             if err != nil {
                 log.Printf("Error generating hash for image %s: %v", resourcePath, err)
                 continue
             }
-            resource["hash"] = hash
+            resource.Hash = hash
 
             // Create image directory if it doesn't exist
             imageDir := filepath.Join(outResourceFolderFullPath, "images")
@@ -97,7 +97,7 @@ func makeTara(filename string) error {
             }
 
             // Copy image file with resource ID (including hash) as name
-            outImagePath := filepath.Join(imageDir, fmt.Sprintf("%s_%s%s", resource["id"], hash, filepath.Ext(resourcePath)))
+            outImagePath := filepath.Join(imageDir, fmt.Sprintf("%s_%s%s", resource.ID, hash, filepath.Ext(resourcePath)))
 
             err = copyFile(resourcePath, outImagePath)
             if err != nil {
@@ -105,7 +105,7 @@ func makeTara(filename string) error {
                 continue
             }
 
-        case "sound":
+        case ResourceTypeSound:
             // Create sound directory if it doesn't exist
             soundDir := filepath.Join(outResourceFolderFullPath, "sounds")
             if err := os.MkdirAll(soundDir, 0777); err != nil && !os.IsExist(err) {
@@ -113,14 +113,14 @@ func makeTara(filename string) error {
             }
 
             // Copy sound file with resource ID as name
-            outSoundPath := filepath.Join(soundDir, resource["id"]+filepath.Ext(resourcePath))
+            outSoundPath := filepath.Join(soundDir, resource.ID+filepath.Ext(resourcePath))
             err = copyFile(resourcePath, outSoundPath)
             if err != nil {
                 log.Printf("Error copying sound %s: %v", resourcePath, err)
                 continue
             }
 
-        case "model":
+        case ResourceTypeModel:
             // Create model directory if it doesn't exist
             modelDir := filepath.Join(outResourceFolderFullPath, "models")
             if err := os.MkdirAll(modelDir, 0777); err != nil && !os.IsExist(err) {
@@ -128,7 +128,7 @@ func makeTara(filename string) error {
             }
 
             // Copy model file with resource ID as name
-            outModelPath := filepath.Join(modelDir, resource["id"]+filepath.Ext(resourcePath))
+            outModelPath := filepath.Join(modelDir, resource.ID+filepath.Ext(resourcePath))
             err = copyFile(resourcePath, outModelPath)
             if err != nil {
                 log.Printf("Error copying model %s: %v", resourcePath, err)
