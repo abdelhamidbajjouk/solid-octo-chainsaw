@@ -38,6 +38,10 @@
             "src": "hull/vikingxt/m0/hull.3ds?v1"
         },
         {
+            "name": "viking_dc",
+            "src": "hull/vikingdc/m0/hull.3ds?v1"
+        },
+        {
             "name": "viking_tx",
             "src": "hull/viking_tx/m0/object.3ds"
         },
@@ -64,6 +68,10 @@
         {
             "name": "wasp_xt",
             "src": "hull/waspxt/m0/hull.3ds?v1"
+        },
+        {
+            "name": "wasp_dc",
+            "src": "hull/waspdc/m0/hull.3ds?v1"
         },
         {
             "name": "hunter_xt",
@@ -168,6 +176,10 @@
         {
             "name": "flamethrower_xt",
             "src": "turret/flamethrowerxt/m0/turret.3ds"
+        },
+        {
+            "name": "flamethrower_dc",
+            "src": "turret/flamethrowerdc/m0/turret.3ds"
         },
         {
             "name": "flamethrower_m0",

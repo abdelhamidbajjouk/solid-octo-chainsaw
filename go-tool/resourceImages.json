@@ -34,6 +34,38 @@
 			"src": "hull/viking_tx/m0/preview.png"
 		},
 		{
+			"name": "viking_dc_details",
+			"src": "hull/vikingdc/m0/details.png"
+		},
+		{
+			"name": "viking_dc_lightmap",
+			"src": "hull/vikingdc/m0/lightmap.jpg"
+		},
+		{
+			"name": "viking_dc_tracks",
+			"src": "hull/vikingdc/m0/tracks.jpg"
+		},
+		{
+			"name": "viking_dc_preview",
+			"src": "hull/vikingdc/m0/preview.png"
+		},
+		{
+			"name": "wasp_dc_lightmap",
+			"src": "hull/waspdc/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "wasp_dc_details",
+			"src": "hull/waspdc/m0/details.png?v1"
+		},
+		{
+			"name": "wasp_dc_preview",
+			"src": "hull/waspdc/m0/preview.png"
+		},
+		{
+			"name": "wasp_dc_tracks",
+			"src": "hull/waspdc/m0/tracks.jpg"
+		},
+		{
 			"name": "frezee_fr_details",
 			"src": "turret/frezee_fr/details.jpg"
 		},
@@ -1080,6 +1112,18 @@
 			"src": "turret/flamethrowerxt/m0/preview.png?v1"
 		},
 		{
+			"name": "flamethrower_dc_lightmap",
+			"src": "turret/flamethrowerdc/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "flamethrower_dc_details",
+			"src": "turret/flamethrowerdc/m0/details.png?v1"
+		},
+		{
+			"name": "flamethrower_dc_preview",
+			"src": "turret/flamethrowerdc/m0/preview.png?v1"
+		},
+		{
 			"name": "isida_xt_lightmap",
 			"src": "turret/isida/XT/lightmap.jpg?v1"
 		},
@@ -1790,6 +1834,18 @@
 		{
 			"name": "hunter_xt_preview",
 			"src": "hull/hunterxt/m0/preview.png"
+		},
+		{
+			"name": "hunter_dc_lightmap",
+			"src": "hull/hunterdc/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "hunter_dc_details",
+			"src": "hull/hunterdc/m0/details.png?v1"
+		},
+		{
+			"name": "hunter_dc_preview",
+			"src": "hull/hunterdc/m0/preview.png"
 		},
 		{
 			"name": "hornet_xt_lightmap",
