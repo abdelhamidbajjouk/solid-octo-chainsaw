@@ -387,11 +387,11 @@
         },
         {
             "name": "map_hw_highland",
-            "src": "maps/map_zone.xml"
+            "src": "maps/map_hw_highland.xml"
         },
         {
             "name": "map_hw_hills",
-            "src": "maps/map_zone.xml"
+            "src": "maps/map_hw_hills.xml"
         },
         {
             "name": "map_hw_sandal",
