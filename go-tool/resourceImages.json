@@ -6564,6 +6564,30 @@
         {
 			"name": "Turtle_m0_preview",
             "src": "kits/m3/Turtle.png"
-        }
+        },
+		{
+			"name": "map_hw_2024_preview",
+			"src": "maps/map_hw_2024_preview.jpg"
+		},
+		{
+			"name": "map_hw_highland_preview",
+			"src": "maps/map_hw_highland_preview.jpg"
+		},
+		{
+			"name": "map_hw_hills_preview",
+			"src": "maps/map_hw_hills_preview.jpg"
+		},
+		{
+			"name": "map_hw_monastery_preview",
+			"src": "maps/map_hw_monastery_preview.jpg"
+		},
+		{
+			"name": "map_hw_sandal_preview",
+			"src": "maps/map_hw_sandal_preview.jpg"
+		},
+		{
+			"name": "map_hw_sandbox_preview",
+			"src": "maps/map_hw_sandbox_preview.jpg"
+		}
 	]
 }
