@@ -27,7 +27,7 @@
 	  },
 	  {
 	    "name": "gold", 
-	    "src": "gold.mp3"
+	    "src": "laughsiren.mp3"
 	  },
 	  {
 	    "name": "sprayer", 
@@ -184,6 +184,10 @@
 	  {
 		"name": "shaft_shot",
         "src": "turret/shaft/shot.wav"	
+	  },
+	  {
+		"name": "halloween_sound_id",
+        "src": "sounds/halloween.mp3"	
 	  },
 	  {
 		"name": "shaft_zoomModeSound",
