@@ -1124,6 +1124,18 @@
 			"src": "turret/flamethrowerdc/m0/preview.png?v1"
 		},
 		{
+			"name": "flamethrower_dcnew_lightmap",
+			"src": "turret/flamethrowerdc/m1/lightmap.jpg?v1"
+		},
+		{
+			"name": "flamethrower_dcnew_details",
+			"src": "turret/flamethrowerdc/m1/details.png?v1"
+		},
+		{
+			"name": "flamethrower_dcnew_preview",
+			"src": "turret/flamethrowerdc/m1/preview.png?v1"
+		},
+		{
 			"name": "isida_xt_lightmap",
 			"src": "turret/isida/XT/lightmap.jpg?v1"
 		},
@@ -2305,6 +2317,30 @@
 		{
 			"name": "fallleaves_m0_preview",
 			"src": "colormaps/fallleaves/preview.png"
+		},
+		{
+			"name": "dark_pumkin_m0",
+			"src": "colormaps/darkpumkin/image.jpg"
+		},
+		{
+			"name": "dark_pumkin_m0_preview",
+			"src": "colormaps/darkpumkin/preview.png"
+		},
+		{
+			"name": "scarecrow_rust_m0",
+			"src": "colormaps/scarecrowrust/image.jpg"
+		},
+		{
+			"name": "scarecrow_rust_m0_preview",
+			"src": "colormaps/scarecrowrust/preview.png"
+		},
+		{
+			"name": "spiders_web_m0",
+			"src": "colormaps/spidersweb/image.jpg"
+		},
+		{
+			"name": "spiders_web_m0_preview",
+			"src": "colormaps/spidersweb/preview.png"
 		},
 		{
 			"name": "squidfingers_m0",
