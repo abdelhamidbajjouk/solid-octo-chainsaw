@@ -384,6 +384,46 @@
         {
             "name": "map_zone",
             "src": "maps/map_zone.xml"
+        },
+        {
+            "name": "map_hw_highland",
+            "src": "maps/map_zone.xml"
+        },
+        {
+            "name": "map_hw_hills",
+            "src": "maps/map_zone.xml"
+        },
+        {
+            "name": "map_hw_sandal",
+            "src": "maps/map_hw_sandal.xml"
+        },
+        {
+            "name": "map_hw_silence",
+            "src": "maps/map_hw_silence.xml"
+        },
+        {
+            "name": "map_hw_sandbox",
+            "src": "maps/map_hw_sandbox.xml"
+        },
+        {
+            "name": "map_hw_monastery",
+            "src": "maps/map_hw_monastery.xml"
+        },
+        {
+            "name": "map_hw_2024",
+            "src": "maps/map_hw_2024.xml"
+        },
+        {
+            "name": "map_hw_barda",
+            "src": "maps/map_hw_barda.xml"
+        },
+        {
+            "name": "map_hw_boombox",
+            "src": "maps/map_hw_boombox.xml"
+        },
+        {
+            "name": "map_hw_fortress",
+            "src": "maps/map_hw_fortress.xml"
         }
     ]
 }
