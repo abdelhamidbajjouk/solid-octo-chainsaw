@@ -6603,27 +6603,27 @@
         },
 		{
 			"name": "map_hw_2024_preview",
-			"src": "maps/map_hw_2024_preview.jpg"
+			"src": "maps/map_hw_2024_preview.png"
 		},
 		{
 			"name": "map_hw_highland_preview",
-			"src": "maps/map_hw_highland_preview.jpg"
+			"src": "maps/map_hw_highland_preview.png"
 		},
 		{
 			"name": "map_hw_hills_preview",
-			"src": "maps/map_hw_hills_preview.jpg"
+			"src": "maps/map_hw_hills_preview.png"
 		},
 		{
 			"name": "map_hw_monastery_preview",
-			"src": "maps/map_hw_monastery_preview.jpg"
+			"src": "maps/map_hw_monastery_preview.png"
 		},
 		{
 			"name": "map_hw_sandal_preview",
-			"src": "maps/map_hw_sandal_preview.jpg"
+			"src": "maps/map_hw_sandal_preview.png"
 		},
 		{
 			"name": "map_hw_sandbox_preview",
-			"src": "maps/map_hw_sandbox_preview.jpg"
+			"src": "maps/map_hw_sandbox_preview.png"
 		}
 	]
 }
