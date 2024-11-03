@@ -3375,12 +3375,12 @@
 			"src": "colormaps/teddy/preview.png"
 		},
 		{
-			"name": "gold_paint_m0",
-			"src": "colormaps/gold_paint/image.jpg"
+			"name": "goldpaint_m0",
+			"src": "colormaps/goldpaint/image.jpg"
 		},
 		{
-			"name": "gold_paint_m0_preview",
-			"src": "colormaps/gold_paint/preview.png"
+			"name": "goldpaint_m0_preview",
+			"src": "colormaps/goldpaint/preview.png"
 		},
 		{
 			"name": "firstkiss_m0",
