@@ -3375,6 +3375,38 @@
 			"src": "colormaps/teddy/preview.png"
 		},
 		{
+			"name": "gold_m0",
+			"src": "colormaps/gold/image.jpg"
+		},
+		{
+			"name": "gold_m0_preview",
+			"src": "colormaps/gold/preview.png"
+		},
+		{
+			"name": "firstkiss_m0",
+			"src": "colormaps/firstkiss/image.jpg"
+		},
+		{
+			"name": "firstkiss_m0_preview",
+			"src": "colormaps/firstkiss/preview.png"
+		},
+		{
+			"name": "glamcroc_m0",
+			"src": "colormaps/glamcroc/image.jpg"
+		},
+		{
+			"name": "glamcroc_m0_preview",
+			"src": "colormaps/glamcroc/preview.png"
+		},
+		{
+			"name": "breeze_m0",
+			"src": "colormaps/breeze/image.jpg"
+		},
+		{
+			"name": "breeze_m0_preview",
+			"src": "colormaps/breeze/preview.png"
+		},
+		{
 			"name": "bueno_m0",
 			"src": "colormaps/bueno/image.jpg"
 		},
