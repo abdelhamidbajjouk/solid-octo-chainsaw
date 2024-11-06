@@ -3407,6 +3407,14 @@
 			"src": "colormaps/breeze/preview.png"
 		},
 		{
+			"name": "infernalhex_m0",
+			"src": "colormaps/infernalhex/image.jpg"
+		},
+		{
+			"name": "infernalhex_m0_preview",
+			"src": "colormaps/infernalhex/preview.png"
+		},
+		{
 			"name": "bloodmoon_m0",
 			"src": "colormaps/bloodmoon/image.jpg"
 		},
