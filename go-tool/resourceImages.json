@@ -3384,7 +3384,12 @@
 		},
 		{
 			"name": "firstkiss_m0",
-			"src": "colormaps/firstkiss/image.jpg"
+			"src": "colormaps/firstkiss/image.jpg",
+			"multiframe": true,
+			"fps": 24,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
 		},
 		{
 			"name": "firstkiss_m0_preview",
@@ -3392,7 +3397,12 @@
 		},
 		{
 			"name": "glamcroc_m0",
-			"src": "colormaps/glamcroc/image.jpg"
+			"src": "colormaps/glamcroc/image.jpg",
+			"multiframe": true,
+			"fps": 24,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
 		},
 		{
 			"name": "glamcroc_m0_preview",
