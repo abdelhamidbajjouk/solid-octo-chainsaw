@@ -1112,6 +1112,18 @@
 			"src": "turret/flamethrowerxt/m0/preview.png?v1"
 		},
 		{
+			"name": "flamethrower_hd_lightmap",
+			"src": "turret/flamethrowerhd/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "flamethrower_hd_details",
+			"src": "turret/flamethrowerhd/m0/details.png?v1"
+		},
+		{
+			"name": "flamethrower_hd_preview",
+			"src": "turret/flamethrowerhd/m0/preview.png?v1"
+		},
+		{
 			"name": "flamethrower_dc_lightmap",
 			"src": "turret/flamethrowerdc/m0/lightmap.jpg?v1"
 		},
@@ -1870,6 +1882,18 @@
 		{
 			"name": "hornet_xt_preview",
 			"src": "hull/hornetxt/m0/preview.png"
+		},
+		{
+			"name": "hornet_lc_lightmap",
+			"src": "hull/hornetlc/m0/lightmap.jpg?v1"
+		},
+		{
+			"name": "hornet_lc_details",
+			"src": "hull/hornetlc/m0/details.png?v1"
+		},
+		{
+			"name": "hornet_lc_preview",
+			"src": "hull/hornetlc/m0/preview.png"
 		},
 		{
 			"name": "dictator_xt_lightmap",
@@ -3407,6 +3431,77 @@
 		{
 			"name": "glamcroc_m0_preview",
 			"src": "colormaps/glamcroc/preview.png"
+		},
+		{
+			"name": "adversity_m0",
+			"src": "colormaps/adversity/image.jpg",
+			"multiframe": true,
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+		{
+			"name": "adversity_m0_preview",
+			"src": "colormaps/adversity/preview.png"
+		},
+		{
+			"name": "electricsheep_m0",
+			"src": "colormaps/electricsheep/image.jpg",
+			"multiframe": true,
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+		{
+			"name": "electricsheep_m0_preview",
+			"src": "colormaps/electricsheep/preview.png"
+		},
+		{
+			"name": "electrohive_m0",
+			"src": "colormaps/electrohive/image.jpg",
+			"multiframe": true,
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+		{
+			"name": "electrohive_m0_preview",
+			"src": "colormaps/electrohive/preview.png"
+		},
+		{
+			"name": "santaclaus_m0",
+			"src": "colormaps/santaclaus/image.jpg"
+		},
+		{
+			"name": "santaclaus_m0_preview",
+			"src": "colormaps/santaclaus/preview.png"
+		},
+		{
+			"name": "totebag_m0",
+			"src": "colormaps/totebag/image.jpg"
+		},
+		{
+			"name": "totebag_m0_preview",
+			"src": "colormaps/totebag/preview.png"
+		},
+		{
+			"name": "snowflake_m0",
+			"src": "colormaps/snowflake/image.jpg"
+		},
+		{
+			"name": "snowflake_m0_preview",
+			"src": "colormaps/snowflake/preview.png"
+		},
+		{
+			"name": "bluesquare_m0",
+			"src": "colormaps/bluesquare/image.jpg"
+		},
+		{
+			"name": "bluesquare_m0_preview",
+			"src": "colormaps/bluesquare/preview.png"
 		},
 		{
 			"name": "breeze_m0",
