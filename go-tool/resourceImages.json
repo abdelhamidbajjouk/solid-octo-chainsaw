@@ -2336,7 +2336,12 @@
 		},
 		{
 			"name": "fallleaves_m0",
-			"src": "colormaps/fallleaves/image.jpg"
+			"src": "colormaps/fallleaves/image.jpg",
+			"multiframe": true,
+			"fps": 24,
+			"frame_heigth": 64,
+			"frame_width": 64,
+			"num_frames": 64
 		},
 		{
 			"name": "fallleaves_m0_preview",
