@@ -4748,10 +4748,6 @@
 			"src": "turret/flamethrower/shoteffects/magma/fireball.png"
 		},
 		{
-			"name": "flamethrower_hd_fire",
-			"src": "turret/flamethrower/shoteffects/hd/fireball.png"
-		},
-		{
 			"name": "flamethrower_fool_fire",
 			"src": "turret/flamethrower/shoteffects/fool/fireball.png"
 		},
