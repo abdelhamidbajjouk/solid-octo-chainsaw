@@ -82,6 +82,10 @@
             "src": "hull/hornetxt/m0/hull.3ds?v1"
         },
         {
+            "name": "hornet_lc",
+            "src": "hull/hornetlc/m0/hull.3ds?v1"
+        },
+        {
             "name": "thunder_xt",
             "src": "turret/thunder_xt/m0/turret.3ds"
         },
