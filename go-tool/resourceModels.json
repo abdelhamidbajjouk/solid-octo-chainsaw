@@ -182,10 +182,6 @@
             "src": "turret/flamethrowerxt/m0/turret.3ds"
         },
         {
-            "name": "flamethrower_hd",
-            "src": "turret/flamethrowerhd/m0/turret.3ds"
-        },
-        {
             "name": "flamethrower_dc",
             "src": "turret/flamethrowerdc/m0/turret.3ds"
         },

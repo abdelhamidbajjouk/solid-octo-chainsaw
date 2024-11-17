@@ -1112,18 +1112,6 @@
 			"src": "turret/flamethrowerxt/m0/preview.png?v1"
 		},
 		{
-			"name": "flamethrower_hd_lightmap",
-			"src": "turret/flamethrowerhd/m0/lightmap.jpg?v1"
-		},
-		{
-			"name": "flamethrower_hd_details",
-			"src": "turret/flamethrowerhd/m0/details.png?v1"
-		},
-		{
-			"name": "flamethrower_hd_preview",
-			"src": "turret/flamethrowerhd/m0/preview.png?v1"
-		},
-		{
 			"name": "flamethrower_dc_lightmap",
 			"src": "turret/flamethrowerdc/m0/lightmap.jpg?v1"
 		},
