@@ -42,6 +42,10 @@
             "src": "hull/vikingdc/m0/hull.3ds?v1"
         },
         {
+            "name": "viking_ut",
+            "src": "hull/viking_ut/m0/hull.3ds?v1"
+        },
+        {
             "name": "viking_tx",
             "src": "hull/viking_tx/m0/object.3ds"
         },
@@ -54,12 +58,20 @@
             "src": "hull/hornet_tx/m0/hull.3ds"
         },
         {
+            "name": "hornet_ut",
+            "src": "hull/hornet_ut/m0/hull.3ds"
+        },
+        {
             "name": "railgun_tx",
             "src": "turret/railgun_tx/turret.3ds"
         },
         {
             "name": "thunder_tx",
             "src": "turret/thunder_tx/m0/turret.3ds"
+        },
+        {
+            "name": "thunder_pr",
+            "src": "turret/thunder_pr/m0/turret.3ds"
         },
         {
             "name": "frezee_fr",

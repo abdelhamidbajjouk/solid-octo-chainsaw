@@ -18,6 +18,22 @@
 			"src": "hull/hornet_tx/m0/preview.png"
 		},
 		{
+			"name": "hornet_ut_details",
+			"src": "hull/hornet_ut/m0/details.png"
+		},
+		{
+			"name": "hornet_ut_lightmap",
+			"src": "hull/hornet_ut/m0/lightmap.jpg"
+		},
+		{
+			"name": "hornet_ut_tracks",
+			"src": "hull/hornet_ut/m0/tracks.jpg"
+		},
+		{
+			"name": "hornet_ut_preview",
+			"src": "hull/hornet_ut/m0/preview.png"
+		},
+		{
 			"name": "viking_tx_details",
 			"src": "hull/viking_tx/m0/details.png"
 		},
@@ -32,6 +48,22 @@
 		{
 			"name": "viking_tx_preview",
 			"src": "hull/viking_tx/m0/preview.png"
+		},
+		{
+			"name": "viking_ut_details",
+			"src": "hull/viking_ut/m0/details.png"
+		},
+		{
+			"name": "viking_ut_lightmap",
+			"src": "hull/viking_ut/m0/lightmap.jpg"
+		},
+		{
+			"name": "viking_ut_tracks",
+			"src": "hull/viking_ut/m0/tracks.jpg"
+		},
+		{
+			"name": "viking_ut_preview",
+			"src": "hull/viking_ut/m0/preview.png"
 		},
 		{
 			"name": "viking_dc_details",
@@ -100,6 +132,18 @@
 		{
 			"name": "thunder_tx_preview",
 			"src": "turret/thunder_tx/m0/preview.png"
+		},
+		{
+			"name": "thunder_pr_details",
+			"src": "turret/thunder_pr/m0/details.png"
+		},
+		{
+			"name": "thunder_pr_lightmap",
+			"src": "turret/thunder_pr/m0/lightmap.jpg"
+		},
+		{
+			"name": "thunder_pr_preview",
+			"src": "turret/thunder_pr/m0/preview.png"
 		},
 		{
 			"name": "map_2042_preview",
