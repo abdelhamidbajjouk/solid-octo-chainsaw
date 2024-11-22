@@ -3423,8 +3423,8 @@
 			"src": "colormaps/splash/preview.png"
 		},
 		{
-			"name": "teddy_0_m0",
-			"src": "colormaps/teddy/image.jpg",
+			"name": "synesthesia_m0",
+			"src": "colormaps/synesthesia/image.jpg",
 			"multiframe": true,
 			"fps": 20,
 			"frame_heigth": 256,
@@ -3432,8 +3432,34 @@
 			"num_frames": 16
 		},
 		{
-			"name": "teddy_0_m0_preview",
-			"src": "colormaps/teddy/preview.png"
+			"name": "synesthesia_m0_preview",
+			"src": "colormaps/synesthesia/preview.png"
+		},
+		{
+			"name": "blacksea_m0",
+			"src": "colormaps/blacksea/image.jpg",
+			"multiframe": true,
+			"fps": 32,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+		{
+			"name": "smokescreen_m0_preview",
+			"src": "colormaps/blacksea/preview.png"
+		},
+		{
+			"name": "smokescreen_m0",
+			"src": "colormaps/smokescreen/image.jpg",
+			"multiframe": true,
+			"fps": 24,
+			"frame_heigth": 128,
+			"frame_width": 128,
+			"num_frames": 64
+		},
+		{
+			"name": "smokescreen_m0_preview",
+			"src": "colormaps/smokescreen/preview.png"
 		},
 		{
 			"name": "goldpaint_m0",
