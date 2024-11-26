@@ -23,4 +23,4 @@ jobs:
 
       - name: Upload assets to Cloudflare R2
         run: |
-          aws s3 cp ./assets s3://cybertankzassets/ --recursive --endpoint-url https://<account-id>.r2.cloudflarestorage.com
+          aws s3 cp ./assets s3://cybertankzassets/ --recursive --endpoint-url https://6ce473f2b836b99421bb737a0cd1846f.r2.cloudflarestorage.com
